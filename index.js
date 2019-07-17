@@ -11,7 +11,7 @@ function nestedTarget(){
 function increaseRankBy(n){
   var rankings = document.querySelectorAll('ul.ranked-list li');
   for(var i=0; i< rankings.length; i++){
-    ranks[i].innerHTML = parseInt(ranks[i].innerHTML) + 1;
+    rankings[i].innerHTML = parseInt(rankings[i].innerHTML) + 1;
   }
 }
 
