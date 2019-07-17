@@ -21,5 +21,6 @@ function deepestChild(){
   for(var i=0; deepest.children[i]= NULL; i){
     deepest = deepest.children[0];
   }
+  return deepest;
 }
 
